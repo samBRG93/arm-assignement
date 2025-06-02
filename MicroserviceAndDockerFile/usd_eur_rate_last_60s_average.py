@@ -4,10 +4,10 @@ import json
 import logging
 import time
 from log_config import setup_std_logging
-from env_config import setup_env
+from dotenv import load_dotenv
 
 setup_std_logging()
-setup_env()
+load_dotenv()
 
 
 def get_usd_eur_rate():

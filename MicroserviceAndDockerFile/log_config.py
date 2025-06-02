@@ -1,6 +1,5 @@
 import logging
 import os
-import sys
 
 
 def setup_std_logging():
